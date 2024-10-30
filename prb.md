@@ -5,7 +5,7 @@
 Este proyecto implementa una aplicación de streaming en tiempo real que consume datos sobre vuelos desde un tópico de Kafka y los procesa utilizando Apache Spark. La aplicación está diseñada para demostrar el manejo y procesamiento de flujos de datos en tiempo real, abordando problemas de latencia y volumen de datos.
 
 ## Flujo de Trabajo
-![Diagrama de Flujo](ruta/al/diagrama.png)
+![Diagrama de Flujo](BigData/kafka.png)
 
 1. Los datos se envían a un tópico en Kafka.
 2. Spark Streaming se conecta al tópico y consume los datos.
