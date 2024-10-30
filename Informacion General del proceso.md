@@ -5,7 +5,7 @@
 Este proyecto implementa una aplicación de streaming en tiempo real que consume datos sobre vuelos desde un tópico de Kafka y los procesa utilizando Apache Spark. La aplicación está diseñada para demostrar el manejo y procesamiento de flujos de datos en tiempo real, abordando problemas de latencia y volumen de datos.
 
 ## Flujo de Trabajo
-![Diagrama de Flujo](BigData/kafka.png)
+![Diagrama de Flujo](kafka.png)
 
 1. Los datos se envían a un tópico en Kafka.
 2. Spark Streaming se conecta al tópico y consume los datos.
@@ -86,10 +86,3 @@ Asegúrate de iniciar Zookeeper y Kafka desde el directorio correcto. Los comand
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 ```
-
-## Contribuciones
-Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request.
-
-## Referencias
-- [Documentación de Apache Spark](https://spark.apache.org/docs/latest/)
-- [Documentación de Apache Kafka](https://kafka.apache.org/documentation/)
