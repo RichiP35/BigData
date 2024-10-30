@@ -1,0 +1,8 @@
+# Documentación del Proyecto de Streaming con Spark y Kafka
+
+## Instalación de Dependencias
+Se instaló pyspark en un entorno virtual para evitar conflictos de permisos y dependencias con el sistema:
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+pip install pyspark
