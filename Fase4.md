@@ -157,12 +157,10 @@ db.products.insertMany([
 ]);`
 
 consultas_basicas.js
-javascript
+`javascript
 // Seleccionar productos de la marca Apple
-`
-db.products.find({ "brand": "Apple" });`
-
+db.products.find({ "brand": "Apple" });
 // Seleccionar productos con precio mayor a 1,000,000
-`db.products.find({ "price": { $gt: 1000000 } });
+db.products.find({ "price": { $gt: 1000000 } });
 consultas_agregacion.js
 javascript`
