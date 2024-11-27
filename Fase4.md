@@ -9,14 +9,16 @@ Este proyecto almacena y gestiona datos de productos de una tienda en línea usa
 - **documentación/**: Incluye el diseño de la base de datos, índices, análisis de consultas y resultados, y conclusiones personales.
 
 ### Cómo Ejecutar
-1. Inserta los datos: `mongo scripts/insercion_datos.js`
-2. Ejecuta las consultas: `mongo scripts/consultas_basicas.js`
-3. Realiza agregaciones: `mongo scripts/consultas_agregacion.js`
-4. Actualiza documentos: `mongo scripts/actualizaciones.js`
-5. Elimina documentos: `mongo scripts/eliminaciones.js`
+1. Inserta los datos:                  `mongo scripts/insercion_datos.js`
+2. Ejecuta las consultas:              `mongo scripts/consultas_basicas.js`
+3. Realiza agregaciones:               `mongo scripts/consultas_agregacion.js`
+4. Actualiza documentos:               `mongo scripts/actualizaciones.js`
+5. Elimina documentos:                 `mongo scripts/eliminaciones.js`
+
 Documentación
 diseño_base_de_datos.md
 markdown
+
 # Diseño de la Base de Datos en MongoDB
 
 ## Nombre de la Base de Datos
