@@ -71,9 +71,10 @@ category: Índice para acelerar las consultas basadas en la categoría del produ
 
 #### consultas_y_resultados.md
 
-# Consultas y Resultados en MongoDB
+## Consultas y Resultados en MongoDB
 
-## Inserción de Documentos
+Inserción de Documentos
+
 `
 db.products.insertMany([
   { productId: 1, name: "iPhone 13", description: "Apple iPhone 13 with 128GB storage", price: 3999960, category: "Smartphone", brand: "Apple", stockQuantity: 50 },
@@ -82,6 +83,7 @@ db.products.insertMany([
 
 
 Selección de Documentos
+
 `javascript
 db.products.find({ "brand": "Apple" })
 Actualización de Documentos
@@ -92,6 +94,7 @@ db.products.updateOne(
 )`
 
 Eliminación de Documentos
+
 `javascript
 db.products.deleteOne({ "name": "Echo Dot" })
 Consultas con Filtros y Operadores
@@ -100,6 +103,7 @@ db.products.find({ "price": { $gt: 1000000 } })
 db.products.find({ $and: [ { "brand": "Apple" }, { "category": "Smartphone" } ] })`
 
 Consultas de Agregación
+
 `javascript
 db.products.aggregate([
     { $match: {} },
